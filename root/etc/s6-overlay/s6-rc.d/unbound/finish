@@ -1,0 +1,2 @@
+#!/command/execlineb -P
+killall -9 unbound
