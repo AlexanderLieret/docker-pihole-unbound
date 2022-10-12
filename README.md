@@ -42,8 +42,8 @@ The environment variables from the upstream container image are fully functional
 
 | Variable | Default | Comment |
 | -------- | ------- | ------- |
-| `PIHOLE_DNS_` | `127.0.0.1#5053` | Do not modify/set this value because this controls wether the integrated Unbound resolver is used |
-| `IPv6` | `true` | `<"true"\|"false">` | This settings controls in addition to upstream wether Unbound can use IPv6 or not |
+| `PIHOLE_DNS_` | `127.0.0.1#5335` | Do not modify/set this value because this controls wether the integrated Unbound resolver is used |
+| `IPv6` | unchanged | This settings controls in addition to upstream wether Unbound can use IPv6 or not |
 
 ### Additional Variables ###
 
