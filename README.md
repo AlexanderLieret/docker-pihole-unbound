@@ -49,6 +49,7 @@ The environment variables from the upstream container image are fully functional
 
 | Variable | Default | Value | Description |
 | -------- | ------- | ----- | ----------- |
+| `UNBOUND_IPv6` | unset | `<"true"\|"false">` | Control wether Unbound should use IPv6. If unset, `IPv6` will be used instead |
 | `UNBOUND_PREFER_IPv6` | `false` | `<"true"\|"false">` | This settings controls if Unbound should prefer IPv6 over IPv4. Enable this **only** if you have a native IPv6 connection |
 
 Related Work
