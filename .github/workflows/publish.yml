@@ -7,8 +7,12 @@ on:
       - dev
     tags:
       - "**"
+    paths-ignore:
+      - "Readme.md"
+      - ".github/dependabot.yml"
+
 jobs:
-  login:
+  build-and-publish:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
