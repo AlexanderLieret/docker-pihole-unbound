@@ -1,4 +1,4 @@
-FROM pihole/pihole:2022.12
+FROM pihole/pihole:2023.02.1
 
 RUN apt-get update && apt-get install -y unbound && rm -rf /var/cache/apt/archives /var/lib/apt/lists/*
 RUN ! unbound-anchor -a "/var/lib/unbound/root.key"
